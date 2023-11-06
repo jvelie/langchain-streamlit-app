@@ -32,7 +32,7 @@ def langchain_agent():
     )
 
     results = agent.run(
-        "What average age of a dog multiplied by 3?"
+        "What average age of a dog? Multiply the age by 3."
     )
 
     print(results)
